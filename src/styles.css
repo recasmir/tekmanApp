@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  background-color: #E5E5E5;
+}
+
+h1,h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+p, li, button, a{
+  font-family: 'Roboto', sans-serif;
+}
