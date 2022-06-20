@@ -1,0 +1,19 @@
+<div class="container-fluid d-flex justify-content-center">
+<div class="col-10 mt-4">
+  <h2>Temario</h2>
+  <div class="row ms-0">
+    <div *ngFor="let syll of syllabus" class="col-12 box me-3">
+      <div class="row p-3 align-items-center">
+        <div class="col-8">
+          <p class="m-0"><strong>{{syll.quarter}}</strong></p>
+          <p class="m-0">{{syll.sessions}}</p>
+        </div>
+        <div class="col-4">
+          <img src="{{syll.src}}">
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>

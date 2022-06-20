@@ -10,4 +10,25 @@ h1,h2{
 
 p, li, button, a{
   font-family: 'Roboto', sans-serif;
+  color: #3B3B3B;
+}
+
+button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 26px 10px 20px;
+  gap: 10px;
+  border-radius: 5px;
+  border: 2px solid #F26C48;
+  font-weight: bold;
+  background-color: white;
+}
+
+button:focus{
+  background-color: #F26C48;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0px 4px 0px #C7401B;
 }

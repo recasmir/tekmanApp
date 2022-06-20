@@ -1,5 +1,9 @@
 .container-fluid{
   background-color: white;
   height: 30px;
+}
 
+p{
+  font-size: 12px;
+  font-weight: bold;
 }
