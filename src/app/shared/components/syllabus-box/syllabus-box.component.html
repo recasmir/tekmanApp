@@ -2,7 +2,10 @@
 <div class="col-10 mt-4">
   <h2>Temario</h2>
   <div class="row ms-0">
-    <div *ngFor="let syll of syllabus" class="col-12 box me-3">
+    <div *ngFor="let syll of syllabus; let i=index;"
+         class="col-12 box me-3"
+         (click)="goToSessions(i)"
+         type="button">
       <div class="row p-3 align-items-center">
         <div class="col-8">
           <p class="m-0"><strong>{{syll.quarter}}</strong></p>

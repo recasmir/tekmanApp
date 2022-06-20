@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Subscription } from 'rxjs';
+import { InteractionService } from 'src/app/services/interaction.service';
 
 @Component({
   selector: 'app-sessions',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SessionsComponent implements OnInit {
 
-  constructor() { }
+  quarterId:number = 0;
+
+  constructor(private interactionService: InteractionService) {
+
+    this.interactionService.quarterId.subscribe(id => {
+      this.quarterId = id+1;
+    })
+   }
 
   ngOnInit(): void {
+
   }
 
 }

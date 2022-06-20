@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { Syllabus } from 'src/app/models/syllabus.interface';
+import { InteractionService } from 'src/app/services/interaction.service';
 
 @Component({
   selector: 'app-syllabus-box',
@@ -26,9 +28,15 @@ export class SyllabusBoxComponent implements OnInit {
     }
   ]
 
-  constructor() { }
+  constructor(private interactionService: InteractionService,
+              private router: Router) { }
 
   ngOnInit(): void {
   }
 
+  goToSessions(quarterId:number){
+    this.router.navigate(['session']);
+    this.interactionService.sendQuarterId(quarterId);
+    console.log(quarterId);
+  }
 }
