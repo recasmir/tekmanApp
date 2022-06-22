@@ -13,9 +13,11 @@ The Tekman App is a platform where the user can check the syllabus of mathematic
 
 * By clicking the settings option on the top right corner of the screen, a popup window will appear with a drop-down menu. The user can select the language and the school year. These options can be saved in the user's session.
 
-## Development server
+## How to run TekmanApp
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. Or run `ng serve -o` for the app to open directly on the browser. 
+* Clone the repository locally `git clone https://github.com/recasmir/tekmanApp.git`.
+* Run `npm install` to install the node modules.
+* Run `ng serve` and navigate to `http://localhost:4200/` or run `ng serve -o` for the app to open directly on the browser. 
 
 ## Code scaffolding
 
