@@ -2,6 +2,39 @@
 <div class="container-fluid d-flex justify-content-center">
   <div class="col-10 mt-50">
     <p><a href=''><img class="me-2" src="../../../assets/arrow-left.png">Atrás</a></p>
+    <div class="row">
+      <div class="col-2 box">
+        <div class="row p-3 align-items-center">
+          <div class="col-8">
+            <p class="m-0"><strong>{{syllabus.quarter}}</strong></p>
+            <p class="m-0">{{syllabus.sessions_watched}}/{{syllabus.sessions_total}}</p>
+          </div>
+          <div class="col-4">
+            <img src="{{syllabus.src}}">
+          </div>
+        </div>
+      </div>
+      <div class="col-8 p-3 list ms-5">
+        <p class="ps-3"><strong>Sesiones del {{syllabus.quarter}}</strong></p>
+        <hr>
+        <div class="scroll">
+          <div *ngFor="let session of sessions"
+               class="row select"
+               (click)="watchSession(syllabus.quarter,session.id, session.subject)">
+            <div class="col-2">
+              <p class="ps-3"><strong>{{session.id}}</strong></p>
+            </div>
+            <div class="col-8">
+              <p>{{session.subject}}</p>
+            </div>
+            <div class="col-2">
+              <!-- <img [src]='eye'> -->
+              <img src='../../../assets/no-eye.png'>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <p>{{quarterId}}</p>
+
 </div>

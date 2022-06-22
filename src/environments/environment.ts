@@ -7,6 +7,7 @@ export const environment = {
   BACKEND_API_QUARTER_1: '../assets/quarter1.json',
   BACKEND_API_QUARTER_2: '../assets/quarter2.json',
   BACKEND_API_QUARTER_3: '../assets/quarter3.json',
+  SYLLABUS_API:'../assets/syllabus.json'
 };
 
 /*

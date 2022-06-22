@@ -1,0 +1,22 @@
+{
+  "syllabus" : [
+    {
+      "quarter":"1º Trimestre",
+      "sessions_watched":"50",
+      "sessions_total":"50",
+      "src":"../../../assets/tick.png"
+    },
+    {
+      "quarter":"2º Trimestre",
+      "sessions_watched":"30",
+      "sessions_total":"50",
+      "src":"../../../assets/circle-30.png"
+    },
+    {
+      "quarter":"3º Trimestre",
+      "sessions_watched":"0",
+      "sessions_total":"50",
+      "src":"../../../assets/circle-0.png"
+    }
+  ]
+}

@@ -1,252 +1,302 @@
 {
   "results": [
     {
-      "session":1,
+      "quarter":"3º Trimestre",
+      "id":1,
       "subject":"Ordinales, Fracciones y Decimales",
       "watched":false
     },
     {
-      "session":2,
+      "quarter":"3º Trimestre",
+      "id":2,
       "subject":"Fracciones y Decimales",
       "watched":false
     },
     {
-      "session":3,
+      "quarter":"3º Trimestre",
+      "id":3,
       "subject":"Geometría",
       "watched":false
     },
     {
-      "session":4,
+      "quarter":"3º Trimestre",
+      "id":4,
       "subject":"Ordinales, Fracciones, Decimales y Geometría",
       "watched":false
     },
     {
-      "session":5,
+      "quarter":"3º Trimestre",
+      "id":5,
       "subject":"Ordinales, Fracciones y Decimales",
       "watched":false
     },
     {
-      "session":6,
+      "quarter":"3º Trimestre",
+      "id":6,
       "subject":"Fracciones",
       "watched":false
     },
     {
-      "session":7,
+      "quarter":"3º Trimestre",
+      "id":7,
       "subject":"Ordinales, Fracciones y Decimales",
       "watched":false
     },
     {
-      "session":8,
+      "quarter":"3º Trimestre",
+      "id":8,
       "subject":"Ordinales, Fracciones, Decimales y Geometría",
       "watched":false
     },
     {
-      "session":9,
+      "quarter":"3º Trimestre",
+      "id":9,
       "subject":"Fracciones y Decimales",
       "watched":false
     },
     {
-      "session":10,
+      "quarter":"3º Trimestre",
+      "id":10,
       "subject":"Ordinales, Fracciones y Decimales",
       "watched":false
     },
     {
-      "session":11,
+      "quarter":"3º Trimestre",
+      "id":11,
       "subject":"Números",
       "watched":false
     },
     {
-      "session":12,
+      "quarter":"3º Trimestre",
+      "id":12,
       "subject":"Fracciones y Decimales",
       "watched":false
     },
     {
-      "session":13,
+      "quarter":"3º Trimestre",
+      "id":13,
       "subject":"Ordinales, Fracciones, Decimales y Geometría",
       "watched":false
     },
     {
-      "session":14,
+      "quarter":"3º Trimestre",
+      "id":14,
       "subject":"Geometría",
       "watched":false
     },
     {
-      "session":15,
+      "quarter":"3º Trimestre",
+      "id":15,
       "subject":"Ordinales, Fracciones y Decimales",
       "watched":false
     },
     {
-      "session":16,
+      "quarter":"3º Trimestre",
+      "id":16,
       "subject":"Números",
       "watched":false
     },
     {
-      "session":17,
+      "quarter":"3º Trimestre",
+      "id":17,
       "subject":"Fracciones y Decimales",
       "watched":false
     },
     {
-      "session":18,
+      "quarter":"3º Trimestre",
+      "id":18,
       "subject":"Geometría",
       "watched":false
     },
     {
-      "session":19,
+      "quarter":"3º Trimestre",
+      "id":19,
       "subject":"Fracciones",
       "watched":false
     },
     {
-      "session":20,
+      "quarter":"3º Trimestre",
+      "id":20,
       "subject":"Fracciones y Decimales",
       "watched":false
     },
     {
-      "session":21,
+      "quarter":"3º Trimestre",
+      "id":21,
       "subject":"Geometría",
       "watched":false
     },
     {
-      "session":22,
+      "quarter":"3º Trimestre",
+      "id":22,
       "subject":"Ordinales",
       "watched":false
     },
     {
-      "session":23,
+      "quarter":"3º Trimestre",
+      "id":23,
       "subject":"Ordinales y fracciones",
       "watched":false
     },
     {
-      "session":24,
+      "quarter":"3º Trimestre",
+      "id":24,
       "subject":"Fracciones y decimales",
       "watched":false
     },
     {
-      "session":25,
+      "quarter":"3º Trimestre",
+      "id":25,
       "subject":"Ordinales, Fracciones y Decimales",
       "watched":false
     },
     {
-      "session":26,
+      "quarter":"3º Trimestre",
+      "id":26,
       "subject":"Ordinales, Fracciones, Decimales y Geometría",
       "watched":false
     },
     {
-      "session":27,
+      "quarter":"3º Trimestre",
+      "id":27,
       "subject":"Geometría y Fracciones",
       "watched":false
     },
     {
-      "session":28,
+      "quarter":"3º Trimestre",
+      "id":28,
       "subject":"Fracciones, Decimales y Geometría",
       "watched":false
     },
     {
-      "session":29,
+      "quarter":"3º Trimestre",
+      "id":29,
       "subject":"Ordinales, Fracciones, Decimales, Geometría, Números",
       "watched":false
     },
     {
-      "session":30,
+      "quarter":"3º Trimestre",
+      "id":30,
       "subject":"Fracciones",
       "watched":false
     },
     {
-      "session":31,
+      "quarter":"3º Trimestre",
+      "id":31,
       "subject":"Decimales y Geometría",
       "watched":false
     },
     {
-      "session":32,
+      "quarter":"3º Trimestre",
+      "id":32,
       "subject":"Números",
       "watched":false
     },
     {
-      "session":33,
+      "quarter":"3º Trimestre",
+      "id":33,
       "subject":"Ordinales, Fracciones y Decimales",
       "watched":false
     },
     {
-      "session":34,
+      "quarter":"3º Trimestre",
+      "id":34,
       "subject":"Geometría y Números",
       "watched":false
     },
     {
-      "session":35,
+      "quarter":"3º Trimestre",
+      "id":35,
       "subject":"Geometría",
       "watched":false
     },
     {
-      "session":36,
+      "quarter":"3º Trimestre",
+      "id":36,
       "subject":"Fracciones y Decimales",
       "watched":false
     },
     {
-      "session":37,
+      "quarter":"3º Trimestre",
+      "id":37,
       "subject":"Fracciones",
       "watched":false
     },
     {
-      "session":38,
+      "quarter":"3º Trimestre",
+      "id":38,
       "subject":"Geometría",
       "watched":false
     },
     {
-      "session":39,
+      "quarter":"3º Trimestre",
+      "id":39,
       "subject":"Fracciones y Decimales",
       "watched":false
     },
     {
-      "session":40,
+      "quarter":"3º Trimestre",
+      "id":40,
       "subject":"Números",
       "watched":false
     },
     {
-      "session":41,
+      "quarter":"3º Trimestre",
+      "id":41,
       "subject":"Decimales",
       "watched":false
     },
     {
-      "session":42,
+      "quarter":"3º Trimestre",
+      "id":42,
       "subject":"Fracciones y Decimales",
       "watched":false
     },
     {
-      "session":43,
+      "quarter":"3º Trimestre",
+      "id":43,
       "subject":"Geometría",
       "watched":false
     },
     {
-      "session":44,
+      "quarter":"3º Trimestre",
+      "id":44,
       "subject":"Fracciones y Decimales",
       "watched":false
     },
     {
-      "session":45,
+      "quarter":"3º Trimestre",
+      "id":45,
       "subject":"Números",
       "watched":false
     },
     {
-      "session":46,
+      "quarter":"3º Trimestre",
+      "id":46,
       "subject":"Ordinales, Fracciones, Decimales y Geometría",
       "watched":false
     },
     {
-      "session":47,
+      "quarter":"3º Trimestre",
+      "id":47,
       "subject":"Fracciones y Decimales",
       "watched":false
     },
     {
-      "session":48,
+      "quarter":"3º Trimestre",
+      "id":48,
       "subject":"Decimales",
       "watched":false
     },
     {
-      "session":49,
+      "quarter":"3º Trimestre",
+      "id":49,
       "subject":"Ordinales, Fracciones, Decimales y Geometría",
       "watched":false
     },
     {
-      "session":50,
+      "quarter":"3º Trimestre",
+      "id":50,
       "subject":"Fracciones y Decimales",
       "watched":false
     }

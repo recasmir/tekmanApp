@@ -3,6 +3,7 @@ import { CommonModule, DatePipe } from '@angular/common';
 import { StatusTabletComponent } from './components/status-tablet/status-tablet.component';
 import { CardsComponent } from './components/cards/cards.component';
 import { SyllabusBoxComponent } from './components/syllabus-box/syllabus-box.component';
+import { SessionListComponent } from './components/session-list/session-list.component';
 
 
 
@@ -10,7 +11,8 @@ import { SyllabusBoxComponent } from './components/syllabus-box/syllabus-box.com
   declarations: [
     StatusTabletComponent,
     CardsComponent,
-    SyllabusBoxComponent
+    SyllabusBoxComponent,
+    SessionListComponent
   ],
   imports: [
     CommonModule
@@ -21,7 +23,8 @@ import { SyllabusBoxComponent } from './components/syllabus-box/syllabus-box.com
   exports:[
     StatusTabletComponent,
     CardsComponent,
-    SyllabusBoxComponent
+    SyllabusBoxComponent,
+    SessionListComponent
   ]
 })
 export class SharedModule { }

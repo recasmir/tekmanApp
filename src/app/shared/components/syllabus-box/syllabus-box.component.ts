@@ -1,3 +1,4 @@
+import { ApiCallService } from './../../../services/api-call.service';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Syllabus } from 'src/app/models/syllabus.interface';
@@ -10,28 +11,21 @@ import { InteractionService } from 'src/app/services/interaction.service';
 })
 export class SyllabusBoxComponent implements OnInit {
 
-  syllabus: Syllabus[]=[
-    {
-      quarter:"1º Trimestre",
-      sessions:"50/50",
-      src:"../../../assets/tick.png"
-    },
-    {
-      quarter:"2º Trimestre",
-      sessions:"30/50",
-      src:"../../../assets/circle-30.png"
-    },
-    {
-      quarter:"3º Trimestre",
-      sessions:"0/50",
-      src:"../../../assets/circle-0.png"
-    }
-  ]
+  syllabus: Syllabus[] = [];
 
   constructor(private interactionService: InteractionService,
-              private router: Router) { }
+              private router: Router,
+              private apiCallService: ApiCallService) { }
 
   ngOnInit(): void {
+    this.showSyllabusBox();
+  }
+
+  showSyllabusBox(){
+    this.apiCallService.getSyllabus()
+      .subscribe( resp => {
+        this.syllabus = resp.syllabus;
+      })
   }
 
   goToSessions(quarterId:number){

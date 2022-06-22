@@ -5,3 +5,32 @@
 a{
   text-decoration: none;
 }
+
+.list{
+  background-color: white;
+  border-radius: 10px;
+  height: 506px;
+
+
+  /* max-height:300px; */
+}
+
+.list p{
+  margin-bottom: 0;
+}
+
+.scroll{
+  height: 425px;
+  overflow-y: scroll;
+  overflow-x: visible;
+}
+
+.select{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.select:hover{
+  background-color: #F26C48;
+  color: white;
+  cursor: pointer;
+}
