@@ -3,16 +3,12 @@ import { CommonModule, DatePipe } from '@angular/common';
 import { StatusTabletComponent } from './components/status-tablet/status-tablet.component';
 import { CardsComponent } from './components/cards/cards.component';
 import { SyllabusBoxComponent } from './components/syllabus-box/syllabus-box.component';
-import { SessionListComponent } from './components/session-list/session-list.component';
-
-
 
 @NgModule({
   declarations: [
     StatusTabletComponent,
     CardsComponent,
-    SyllabusBoxComponent,
-    SessionListComponent
+    SyllabusBoxComponent
   ],
   imports: [
     CommonModule
@@ -23,8 +19,7 @@ import { SessionListComponent } from './components/session-list/session-list.com
   exports:[
     StatusTabletComponent,
     CardsComponent,
-    SyllabusBoxComponent,
-    SessionListComponent
+    SyllabusBoxComponent
   ]
 })
 export class SharedModule { }
