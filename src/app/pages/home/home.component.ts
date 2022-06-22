@@ -10,6 +10,9 @@ import { Sessions } from 'src/app/models/sessions.interface';
 export class HomeComponent implements OnInit {
 
   currentSession: Sessions;
+  showPlay!: boolean;
+  showShuffle!: boolean;
+  showNext!: boolean;
 
   constructor(private router: Router) {
     this.currentSession = JSON.parse(localStorage.getItem('Current_Session')!) || {};

@@ -20,16 +20,22 @@
         <div class="scroll">
           <div *ngFor="let session of sessions"
                class="row select"
-               (click)="watchSession(syllabus.quarter,session.id, session.subject)">
+               (click)="watchSession(syllabus.quarter,session.id, session.subject)"
+               (mouseover)="selected=true"
+               (mouseout)="selected=false">
             <div class="col-2">
               <p class="ps-3"><strong>{{session.id}}</strong></p>
             </div>
             <div class="col-8">
               <p>{{session.subject}}</p>
             </div>
-            <div class="col-2">
+            <div *ngIf="selected" class="col-2">
               <!-- <img [src]='eye'> -->
               <img src='../../../assets/no-eye.png'>
+            </div>
+            <div *ngIf="!selected" class="col-2">
+              <img src="../../../assets/shuffle-white.png" alt="shuffle">
+              <img src="../../../assets/play-orange.png" alt="play">
             </div>
           </div>
         </div>

@@ -5,4 +5,6 @@
   margin-top: 50px;
 }
 
-
+button:hover{
+  background-color: #F26C48;
+}

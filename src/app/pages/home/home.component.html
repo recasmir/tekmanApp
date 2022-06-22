@@ -5,9 +5,31 @@
     <!-- <p>2º Trimestre - Sesión 25, Odinales, Fracciones y Decimales</p> -->
     <p>{{currentSession.quarter}} Sesión {{currentSession.id}}, {{currentSession.subject}}</p>
     <div class="d-flex">
-      <button type="button" autofocus><img src="../../../assets/play.png"> Reproducción ordenada</button>
-      <button class="mx-3"><img src="../../../assets/shuffle.png">Aleatorio</button>
-      <button (click)="playSession()"><img src="../../../assets/stroke.png">Siguiente sesión</button>
+      <button  (click)="playSession()"
+               type="button"
+               autofocus
+               (mouseover)="showPlay=true"
+               (focus)="showPlay=true"
+               (mouseout)="showPlay=false">
+               <img *ngIf="showPlay" src="../../../assets/play.png">
+               <img *ngIf="!showPlay" src="../../../assets/play-small-orange.png">
+               Reproducción ordenada
+      </button>
+      <button class="mx-3"
+              (mouseover)="showShuffle=true"
+              (mouseout)="showShuffle=false"
+              >
+              <img *ngIf="showShuffle" src="../../../assets/shuffle-white.png">
+              <img *ngIf="!showShuffle" src="../../../assets/shuffle.png">
+              Aleatorio
+      </button>
+      <button (mouseover)="showNext=true"
+              (mouseout)="showNext=false"
+              >
+              <img *ngIf="showNext" src="../../../assets/next-white.png">
+              <img *ngIf="!showNext" src="../../../assets/next-orange.png">
+              Siguiente sesión
+      </button>
     </div>
   </div>
 

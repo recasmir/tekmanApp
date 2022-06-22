@@ -17,6 +17,7 @@ export class SessionsComponent implements OnInit {
   sessions!: Sessions[];
   currentSession!: Sessions;
   eye:string = '';
+  selected = {};
 
   constructor(private interactionService: InteractionService,
               private apiCallService: ApiCallService,
@@ -30,7 +31,7 @@ export class SessionsComponent implements OnInit {
   ngOnInit(): void {
     this.showSyllabusBox();
     this.showSessionsList(this.quarterId);
-    // this.checkWatched();
+    this.checkWatched();
 
   }
 
@@ -84,15 +85,32 @@ export class SessionsComponent implements OnInit {
   // localStorage.setItem('Signed up users', JSON.stringify(this.signedUpUsers));
 
 
-  checkWatched(){
+  // checkWatched(id: number){
+  //   for(let session of this.sessions){
+  //     if(session.id == id){
+  //       if(session.watched == false){
+  //         this.eye = '../../../assets/no-eye.png';
+  //         console.log('im in false')
+  //       }else{
+  //         this.eye = '../../../assets/eye.png';
+  //         console.log('im ture')
+  //       }
+  //     }
+  //   }
+  // }
 
-    // for(let session of newList){
-    //   if(session.watched==false){
-    //     this.eye = '../../../assets/no-eye.png';
-    //   }else{
-    //     this.eye = '../../../assets/eye.png';
-    //   }
-    // }
+  checkWatched(){
+    for(let session of this.sessions){
+
+        if(session.watched == false){
+          this.eye = '../../../assets/no-eye.png';
+          console.log('im in false')
+        }else{
+          this.eye = '../../../assets/eye.png';
+          console.log('im ture')
+        }
+
+    }
   }
 
 }
