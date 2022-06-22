@@ -10,13 +10,14 @@ import { Sessions } from 'src/app/models/sessions.interface';
 export class HomeComponent implements OnInit {
 
   currentSession: Sessions;
+  showCatchUp: boolean = true;
   showPlay!: boolean;
   showShuffle!: boolean;
   showNext!: boolean;
 
   constructor(private router: Router) {
     this.currentSession = JSON.parse(localStorage.getItem('Current_Session')!) || {};
-    console.log(this.currentSession);
+    if(localStorage.getItem('Current_Session') == null) this.showCatchUp = false;
    }
 
   ngOnInit(): void {

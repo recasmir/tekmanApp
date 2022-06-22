@@ -1,8 +1,7 @@
 <app-cards></app-cards>
 <div class="container-fluid d-flex align-items-center flex-column">
-  <div class="col-10 catch-up p-4">
+  <div *ngIf="showCatchUp" class="col-10 catch-up p-4">
     <p><strong>Vuelve donde lo dejaste</strong></p>
-    <!-- <p>2º Trimestre - Sesión 25, Odinales, Fracciones y Decimales</p> -->
     <p>{{currentSession.quarter}} Sesión {{currentSession.id}}, {{currentSession.subject}}</p>
     <div class="d-flex">
       <button  (click)="playSession()"
