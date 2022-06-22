@@ -1,27 +1,27 @@
-# Tekman
+# TekmanApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+The Tekman App is a platform where the user can check the syllabus of mathematics of a pre-school year. See the subjects divided by sessions and check its contents by selecting and playing them. 
+
+## Structure
+
+* The first page is the home page where the user can select the content that would like to check. The content is divided by the 1st, 2nd and 3rd quarter of a school year.
+* On the home page the user can also see which session was played last as it is saved in the local storage.
+
+* The second page is one component that renders the information of the quarter that has been chosen. You can scroll through the different sessions and play one. If the session has been already checked there will appear an icon of an eye on the right column, whereas if it hasn't been checked yet, it will show a faded eye with a diagonal line on top of it.
+
+* When a session has been clicked, it will navigate to the third page where the instructions on what to do before playing the session will be shown.
+
+* By clicking the settings option on the top right corner of the screen, a popup window will appear with a drop-down menu. The user can select the language and the school year. These options can be saved in the user's session.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. Or run `ng serve -o` for the app to open directly on the browser. 
 
 ## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The app it's been divided by pages and shared components and services.
 
-## Build
+#### Considerations
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+* To obtain the data of the sessions three json files are created as mockups and stored in assets.
+* Stylesheets managed by Bootstrap and CSS.
